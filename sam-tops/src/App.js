@@ -7,6 +7,9 @@ import ConstructorCom from './Components/ConstructorCom';
 import FunctionCom from './Components/FunctionComp/FunctionCom';
 import CompInCom1 from './Components/FunctionComp/CompInCom';
 import StateMng from './Components/StateMng';
+import Onclick from './Events/Onclick';
+import OnFormSubmit from './Events/OnFormSubmit';
+import Mychild from './Components/Mychild';
 
 
 function App() {
@@ -18,7 +21,14 @@ function App() {
 {/* <ConstructorCom address="vapi"/> */}
 {/* <FunctionCom /> */}
 {/* <CompInCom1 name="xxyyzz"/> */}
-<StateMng />
+{/* <StateMng /> */}
+{/* <Onclick /> */}
+{/* <OnFormSubmit /> */}
+<Mychild childern="one"> 
+  <h1>hello mychild 1...</h1>
+  <h1>hello mychild 2...</h1>
+  <h1>hello mychild 3...</h1>
+</Mychild>
 
 
 </div>

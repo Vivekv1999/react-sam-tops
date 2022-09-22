@@ -23,12 +23,17 @@ export default class StateMng extends Component {
             })
         }
     }
-    // decrementeHandle=()=>{
-    //     this.setState({
-    //         count:this.state.count-1,
-           
-    //     })
-    // }
+    decrementeHandle=()=>{
+        this.setState({
+            count:this.state.count-1,
+        })
+    }
+    reset=()=>{
+        this.setState({
+            count:0,
+            delta:0
+        })
+    }
 
 
     render() {
@@ -39,6 +44,7 @@ export default class StateMng extends Component {
                 <h2>delta : {this.state.delta}</h2>
                 <button onClick={this.incrementHandle}>Increment</button>
                 <button onClick={this.decrementeHandle}>Decrement</button>
+                <button onClick={this.reset}  >reset</button>
 <hr></hr>
                 <h1>Details</h1>
 
