@@ -23,11 +23,13 @@ export default class StateMng extends Component {
             })
         }
     }
+
     decrementeHandle=()=>{
         this.setState({
             count:this.state.count-1,
         })
     }
+    
     reset=()=>{
         this.setState({
             count:0,
