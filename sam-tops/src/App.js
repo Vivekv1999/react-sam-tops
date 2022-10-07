@@ -20,6 +20,7 @@ import UseRef from './Components/Hooks/UseRef';
 import Header from './Myapp/Header';
 import Home from './Myapp/Home';
 import V24componenetdidmount from './self/V24componenetdidmount';
+import V35nestedlistnetsedarray from './self/V35nestedlistnetsedarray';
 
 
 
@@ -27,34 +28,13 @@ function App() {
   return (
     <>
     <div className='App'>
-{/* <ClassComp/> */}
-{/* <ClassProps name="xyyzz" /> */}
-{/* <CompInCom /> */}
-{/* <ConstructorCom address="vapi"/> */}
-{/* <FunctionCom /> */}
-{/* <CompInCom1 name="xxyyzz"/> */}
-{/* <StateMng /> */}
-{/* <Onclick /> */}
-{/* <OnFormSubmit /> */}
-  {/* <Mychild childern="one"> 
-    <h1>hello mychild 1...</h1>
-    <h1>hello mychild 2...</h1>
-    <h1>hello mychild 3...</h1>
-    </Mychild>
-  */}
+
  {/* <UseState/> */}
  {/* <UseEffect /> */}
  {/* <D /> */}
  {/* <UseRef /> */}
- <Header />
- <Home />
 
-
- {/* <Getinputbox /> */}
- {/* <V16hideshowtoggle /> */}
- {/* <Basicvalidationformv19 /> */}
- {/* <V24componenetdidmount /> */}
- 
+<V35nestedlistnetsedarray />
 
 </div>
   </>

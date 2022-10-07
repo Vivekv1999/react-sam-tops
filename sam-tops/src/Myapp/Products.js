@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
+import styles from './xyz.module.css'
 
 
 export default function Products() {
@@ -22,10 +23,10 @@ export default function Products() {
                 <div className="row">
                     {data.map((item)=>
                     <div className="col md-1 my-3" >
-                        <div className="card" style={{width: "250px"}}>
-                            <img src={item.image} height="250px" className="card-img-top" alt="loading.." />
+                        <div className="card" style={{width: "250px"}} >
+                            <img src={item.image} height="250px" width={"50px"} className="card-img-top" alt="loading.." />
                                 <div className="card-body">
-                                    <h5 className="card-title">{item.name}</h5>
+                                    <h5 className={`card-title ${styles.textc}`} >{item.name}</h5>
                                     <p className="card-text">{item.description}</p>
                                     <a href="/" target="_blank"className="btn btn-primary">Go somewhere</a>
                                 </div>
