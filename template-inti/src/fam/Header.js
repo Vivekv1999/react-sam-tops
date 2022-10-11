@@ -1,4 +1,6 @@
 import React from 'react'
+import { LinkContainer } from 'react-router-bootstrap'
+import { Link } from 'react-router-dom'
 
 export default function Header() {
     return (
@@ -12,9 +14,11 @@ export default function Header() {
                         </button>
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav">
+                            <LinkContainer to="/">
                                 <li className="nav-item">
                                     <a className="nav-link" href="index.html">Home <span className="sr-only">(current)</span></a>
                                 </li>
+                            </LinkContainer>
                                 <li className="nav-item dropdown">
                                     <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"> <span className="nav-label">Pages <span className="caret" /></span></a>
                                     <ul className="dropdown-menu">
@@ -22,15 +26,23 @@ export default function Header() {
                                         <li><a href="testimonial.html">Testimonial</a></li>
                                     </ul>
                                 </li>
-                                <li className="nav-item active">
-                                    <a className="nav-link" href="product.html">Products</a>
-                                </li>
+                                    <LinkContainer to='/Products'>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="blog_list.html">Blog</a>
+                                    <a className="nav-link" to="/Products">Products</a>
                                 </li>
+                                    </LinkContainer>
+                                    <LinkContainer to='/Login'>
+
                                 <li className="nav-item">
-                                    <a className="nav-link" href="contact.html">Contact</a>
+                                    <a className="nav-link" href="blog_list.html">Login</a>
                                 </li>
+                                    </LinkContainer>
+                                    <LinkContainer to='signup'>
+
+                                <li className="nav-item">
+                                    <a className="nav-link" href="contact.html">sign up</a>
+                                </li>
+                                    </LinkContainer>
                                 <li className="nav-item">
                                     <a className="nav-link" href="#">
                                         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style={{ enableBackground: 'new 0 0 456.029 456.029' }} xmlSpace="preserve">

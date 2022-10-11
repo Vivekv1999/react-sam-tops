@@ -25,10 +25,7 @@ export default function V35nestedlistnetsedarray() {
                 </tbody>
 
                 {
-                    users.map((item,i
-                        
-                        
-                        ) =>bb 
+                    users.map((item,i) => 
                         <tr key={i}>
 
                             <td>{i+1}</td>

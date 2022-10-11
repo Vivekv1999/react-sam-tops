@@ -13,7 +13,7 @@ export default class StateMng extends Component {
         }
     }
 
-    incrementHandle=()=>{        
+    incrementHandle=(propd)=>{        
         this.setState({
             count: this.state.count+1
         })

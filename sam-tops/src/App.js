@@ -33,8 +33,8 @@ function App() {
  {/* <UseEffect /> */}
  {/* <D /> */}
  {/* <UseRef /> */}
-
-<V35nestedlistnetsedarray />
+<StateMng />            
+{/* <V35nestedlistnetsedarray /> */}
 
 </div>
   </>
