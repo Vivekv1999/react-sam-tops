@@ -4,8 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
-Login.js
-Signup.js
+
 
 # testing
 /coverage
