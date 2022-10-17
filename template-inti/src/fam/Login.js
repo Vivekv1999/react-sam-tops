@@ -20,7 +20,9 @@ export default function Login() {
                                 navigate('/')
                             }
                             else {
-                                console.log('you are not logged in');
+                                localStorage.setItem('user',JSON.stringify(item))
+                                navigate('/')
+                                console.log('user logedin');
                             }
                         }
                         else{

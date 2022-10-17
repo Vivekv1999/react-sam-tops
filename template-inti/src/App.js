@@ -13,6 +13,7 @@ import {
 import Login from './fam/Login';
 import Signup from './fam/Signup';
 import Single from './fam/Single';
+import Crud from './fam/Crud';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/products' element={<Products />} />
+          <Route path='/crud' element={<Crud />} />
           <Route path='/Login' element={<Login />} />
           <Route path='/signup' element={<Signup />} />
           <Route path='/Single/:id' element={<Single />} />

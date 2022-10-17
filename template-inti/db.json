@@ -2,13 +2,30 @@
   "user": [
     {
       "r_id": 1,
-      "email": "nil@gmail.com",
-      "password": "nil8912"
+      "email": "admin@gmail.com",
+      "password": "a123",
+      "id": 1
     },
     {
-      "r_id": 1,
-      "email": "aaa@gmail.com",
-      "password": "aaa"
+      "name": "VINI",
+      "email": "nil@gmail.com",
+      "password": "123",
+      "r_id": 2,
+      "id": 2
+    },
+    {
+      "name": "yash",
+      "email": "yash@gmail.com",
+      "password": "123",
+      "r_id": 2,
+      "id": 3
+    },
+    {
+      "name": "yash",
+      "email": "yash@gmail.com",
+      "password": "123",
+      "r_id": 2,
+      "id": 4
     }
   ],
   "comments": [
