@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useRef, useState } from 'react'
 import { json, useNavigate } from 'react-router-dom'
 
 export default function Signup() {
@@ -7,14 +7,14 @@ export default function Signup() {
     const [password, setPassword] = useState()
     const [r_id, setr_id] = useState(2)
     const navigate = useNavigate()
+    const inputElement = useRef()
+
     // const
     const handlesubmit = (e) => {
         e.preventDefault()
         const data = { name, email, password, r_id }
         if (data.name.length < 3) {
-            alert("plaese enter valid name")
-            console.log(data.name.length);
-            
+            inputElement.current.body.style.background="red"
         } else {
             console.log(data);
             fetch('http://localhost:3005/user', {

@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import Table from 'react-bootstrap/Table';
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 
 
 
 export default function Crud() {
+    const nevigate=useNavigate()
     const [userdata, setuseradata] = useState()
 
     const { id } = useParams
@@ -27,9 +28,12 @@ export default function Crud() {
         });
     }
 
+    //  
+
     return (
         <>
             <div className="container">
+                <button className='btn btn-primary my-3' onClick={()=>{nevigate('/adduser')}}>Add USER</button>
                 <div className="row mt-6    ">
                     <div className="col-md-12">
                         <Table striped bordered hover size="sm">
@@ -51,8 +55,8 @@ export default function Crud() {
                                                 <td>{item.name}</td>
                                                 <td>{item.email}</td>
                                                 <td>
-                                                    <a className='btn btn-primary mx-2'>Edit</a>
-                                                    <a className='btn btn-danger mx-2' onClick={()=>{deleteuser(item.id)}}>Delete</a>
+                                                    <a className='btn btn-primary mx-2' onClick={()=>{nevigate(`/adduser/${item.id}`)}}>Edit</a>
+                                                    <a className='btn btn-danger mx-2' onClick={() => { deleteuser(item.id) }}>Delete</a>
                                                 </td>
                                             </tr>
                                         </>

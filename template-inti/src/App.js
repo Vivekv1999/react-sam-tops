@@ -14,17 +14,20 @@ import Login from './fam/Login';
 import Signup from './fam/Signup';
 import Single from './fam/Single';
 import Crud from './fam/Crud';
+import Adduser from './fam/Adduser';
 
 function App() {
   return (
     <>
       <BrowserRouter>
-      <Header />
-        
+        <Header />
+
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/products' element={<Products />} />
           <Route path='/crud' element={<Crud />} />
+          <Route path='/adduser' element={<Adduser />} />
+          <Route path='/adduser/:id' element={<Adduser />} />
           <Route path='/Login' element={<Login />} />
           <Route path='/signup' element={<Signup />} />
           <Route path='/Single/:id' element={<Single />} />
@@ -32,7 +35,7 @@ function App() {
 
 
         {/* <Products /> */}
-        
+
       </BrowserRouter>
     </>
   )

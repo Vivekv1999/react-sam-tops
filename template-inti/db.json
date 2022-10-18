@@ -7,13 +7,6 @@
       "id": 1
     },
     {
-      "name": "VINI",
-      "email": "nil@gmail.com",
-      "password": "123",
-      "r_id": 2,
-      "id": 2
-    },
-    {
       "name": "yash",
       "email": "yash@gmail.com",
       "password": "123",
@@ -21,11 +14,39 @@
       "id": 3
     },
     {
-      "name": "yash",
+      "name": "raj",
       "email": "yash@gmail.com",
+      "password": "ff",
+      "r_id": 2,
+      "id": 6
+    },
+    {
+      "name": "one",
+      "email": "one@gmail.com",
       "password": "123",
       "r_id": 2,
-      "id": 4
+      "id": 7
+    },
+    {
+      "name": "twoi",
+      "email": "twopi@gmail.com",
+      "password": "123",
+      "r_id": 2,
+      "id": 8
+    },
+    {
+      "name": "yashaji",
+      "email": "ya@gmail.com",
+      "password": "123",
+      "r_id": 2,
+      "id": 9
+    },
+    {
+      "name": "dder",
+      "email": "ddrfg@gmail.com",
+      "password": "12",
+      "r_id": 2,
+      "id": 11
     }
   ],
   "comments": [
