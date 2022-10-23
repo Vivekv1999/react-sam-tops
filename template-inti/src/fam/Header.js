@@ -25,7 +25,7 @@ export default function Header() {
             localStorage.removeItem('user')
             navigate('/')
         }
-    }
+    } 
     return (
         <>
             <header className="header_section">

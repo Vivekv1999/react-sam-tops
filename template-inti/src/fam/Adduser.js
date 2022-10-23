@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { Button } from 'bootstrap'
 
+
+
 export default function Adduser() {
     const [name, setName] = useState()
     const [email, setEmail] = useState()
@@ -47,22 +49,22 @@ export default function Adduser() {
     const hadleEdituser = (e) => {
         e.preventDefault()
         const data = { name, email, password, r_id }
-        fetch(`http://localhost:3005/user/${id}`,{
-            method:'PUT',
+        fetch(`http://localhost:3005/user/${id}`, {
+            method: 'PUT',
             body: JSON.stringify(data),
             headers: {
                 'Content-Type': 'application/json;Charset=UTF-8',
             },
         })
-        .then((result) => result.json())
-        .then((data) => {
-            console.log(data);
-            navigate('/crud')
-        })
+            .then((result) => result.json())
+            .then((data) => {
+                console.log(data);
+                navigate('/crud')
+            })
     }
 
     return (
-        <> 
+        <>
             <div className="container my-0">
                 <h3>{id === undefined ? "Add User" : "Edit User"}</h3>
                 <section className="why_section layout_padding">

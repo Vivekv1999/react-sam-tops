@@ -8,45 +8,38 @@
     },
     {
       "name": "yash",
-      "email": "yash@gmail.com",
+      "email": "yash@gmoil.com",
       "password": "123",
       "r_id": 2,
-      "id": 3
+      "id": 12
     },
     {
-      "name": "raj",
-      "email": "yash@gmail.com",
-      "password": "ff",
-      "r_id": 2,
-      "id": 6
-    },
-    {
-      "name": "one",
-      "email": "one@gmail.com",
+      "name": "VINI",
+      "email": "vini@gmail.com",
       "password": "123",
       "r_id": 2,
-      "id": 7
+      "id": 14
     },
     {
-      "name": "twoi",
-      "email": "twopi@gmail.com",
+      "name": "JIT",
+      "email": "JIt@gmail.com",
       "password": "123",
       "r_id": 2,
-      "id": 8
+      "id": 17
     },
     {
-      "name": "yashaji",
-      "email": "ya@gmail.com",
-      "password": "123",
+      "name": "ubhantu",
+      "email": "java@gmail.com",
+      "password": "12$",
       "r_id": 2,
-      "id": 9
+      "id": 18
     },
     {
-      "name": "dder",
-      "email": "ddrfg@gmail.com",
-      "password": "12",
+      "name": "sid",
+      "email": "sid@gmail.com",
+      "password": "asd",
       "r_id": 2,
-      "id": 11
+      "id": 19
     }
   ],
   "comments": [
