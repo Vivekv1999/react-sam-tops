@@ -9,7 +9,7 @@ export default function Single() {
             .then(result => result.json())
             .then((data) => {
                 setproduct(data)
-                console.log(data);
+                console.log(typeof (data));
             })
     })
     return (

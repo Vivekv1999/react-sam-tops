@@ -12,7 +12,7 @@ export default function Products() {
         let url = "https://fakestoreapi.com/products"
         let data = await fetch(url);
         let parsedata = await data.json()
-        setproduct(parsedata)
+        setproduct(parsedata)  
         console.log(setproduct(parsedata));
 
 
