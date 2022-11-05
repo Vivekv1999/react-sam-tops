@@ -6,8 +6,8 @@ import Demo1 from './Redux/Demo1';
 function App() {
   return (
     <div className="App">
-      <Demo/>
-      <Demo1/>
+      <Demo />
+      <Demo1 />
     </div>
   );
 }

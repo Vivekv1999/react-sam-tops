@@ -3,15 +3,8 @@
     {
       "r_id": 1,
       "email": "admin@gmail.com",
-      "password": "a123",
+      "password": "x123",
       "id": 1
-    },
-    {
-      "name": "yash",
-      "email": "yash@gmoil.com",
-      "password": "123",
-      "r_id": 2,
-      "id": 12
     },
     {
       "name": "VINI",
@@ -40,6 +33,55 @@
       "password": "asd",
       "r_id": 2,
       "id": 19
+    },
+    {
+      "name": "aaa",
+      "email": "aaa@gmail.com",
+      "password": "aaaaaa",
+      "r_id": 2,
+      "id": 20
+    },
+    {
+      "name": "as",
+      "email": "dd2@gmail.com",
+      "password": "aaaaaa",
+      "r_id": 2,
+      "id": 21
+    },
+    {
+      "name": "a",
+      "email": "yashdfdse@gmail.com",
+      "password": "aaaaaa",
+      "r_id": 2,
+      "id": 22
+    },
+    {
+      "name": "y",
+      "email": "yadzcsh@gmail.com",
+      "password": "qqqqqqq",
+      "r_id": 2,
+      "id": 23
+    },
+    {
+      "name": "a",
+      "email": "asfveadzvx@gmail.com",
+      "password": "qqqqqq",
+      "r_id": 2,
+      "id": 24
+    },
+    {
+      "name": "l",
+      "email": "LPAS@GMIAL.COM",
+      "password": "ASDASD",
+      "r_id": 2,
+      "id": 25
+    },
+    {
+      "name": "a",
+      "email": "yasdaxh@gmail.com",
+      "password": "asdasd",
+      "r_id": 2,
+      "id": 26
     }
   ],
   "comments": [
