@@ -1,9 +1,5 @@
-const innitialstate={
-    count:0
-}
+import { createStore } from "redux";
+import reducer from "./reducer";
 
-const reducer=(state=innitialstate,type)=>{
-    return state;
-}
-
-export default reducer;
+const store=createStore(reducer)
+export default store
